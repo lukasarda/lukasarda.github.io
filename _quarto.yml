@@ -1,0 +1,37 @@
+project:
+  type: website
+  render:                      # explicit: only these pages are rendered
+    - index.qmd
+    - publications.qmd
+    - cv.qmd
+    - 404.qmd
+  resources:
+    - assets/fonts/LICENSE-SourceSans3.md
+    - assets/fonts/LICENSE-SourceSerif4.md
+    - assets/stellar/LICENSE.txt
+
+website:
+  title: "Lukas Arda"
+  description: "Lukas Arda -- gravitational-wave physics."   # TODO: one-line description for search engines
+  site-url: "https://lukasarda.github.io"
+  favicon: assets/favicon.svg
+  search: false
+  twitter-card:
+    card-style: summary
+
+format:
+  html:
+    theme: [default, _engine/stellar.scss, custom.scss]   # keep this order: custom.scss defines the settings
+    page-layout: custom
+    section-divs: false
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    include-after-body: _engine/stellar-nav.html
+
+shortcodes:
+  - _engine/shortcodes.lua
+
+filters:
+  - quarto
+  - _engine/layout.lua

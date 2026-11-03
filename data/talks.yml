@@ -1,0 +1,13 @@
+# Entries of the "Talks" section of the home page, most recent first.
+# Fields: date (required), title (required), details (one line or a list of lines,
+# Markdown allowed), links (optional list of {text, url}). Example:
+#
+# - date: "June 2026"
+#   title: "Title"
+#   details:
+#     - "Place"
+#     - "One more line"
+#   links:
+#     - text: "slides"
+#       url: "assets/slides.pdf"
+[]

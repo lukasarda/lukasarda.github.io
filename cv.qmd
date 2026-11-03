@@ -1,0 +1,11 @@
+---
+title: "Curriculum vitae"
+description: "Curriculum vitae of Lukas Arda."
+compact-sections: true
+---
+
+<!-- Once cv.pdf is set in _metadata.yml, add a download button:
+[Download CV (PDF)](assets/Arda_CV.pdf){.button .primary}
+-->
+
+*Coming soon.*

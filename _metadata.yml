@@ -1,0 +1,43 @@
+# Personal details, CV file and navigation menu, shared by every page.
+# Header, contact box, footer and CV page all read from here.
+# Optional lines (role, affiliation, email, address, linkedin, orcid, github, ads, scholar):
+# comment out or delete to hide them everywhere.
+
+person:
+  name: "Lukas Arda"
+  github: "lukasarda"
+  # TODO: uncomment and fill in the lines you want on the site.
+  # role: "PhD student in ..."
+  # affiliation: "[Lab -- University, City](https://...)"
+  # email: "name@institute.fr"
+  # orcid: "0000-0000-0000-0000"
+  # address:
+  #   - "Street"
+  #   - "Postcode City, Country"
+  # linkedin: "https://www.linkedin.com/in/..."
+  # ads: "https://ui.adsabs.harvard.edu/..."
+  # scholar: "https://scholar.google.com/citations?user=..."
+
+# The downloadable CV. Put the PDF in assets/ and uncomment; the CV buttons appear then.
+# cv:
+#   pdf: "assets/Arda_CV.pdf"
+#   updated: "Month Year"
+
+# Navigation bar, left to right. Links with "#" jump to a section of the home page.
+# The footer lists the entries that are separate pages. "download: true" adds the CV PDF icon.
+site-menu:
+  - text: "Codes"
+    link: "index.qmd#codes"
+  - text: "Teaching"
+    link: "index.qmd#teaching"
+  - text: "Publications"
+    link: "publications.qmd"
+  - text: "Talks"
+    link: "index.qmd#talks"
+  - text: "Outreach"
+    link: "index.qmd#outreach"
+  - text: "CV"
+    link: "cv.qmd"
+    download: true
+  - text: "Personal"
+    link: "index.qmd#personal"

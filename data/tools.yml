@@ -1,0 +1,11 @@
+# Codes, shown as cards in the "Codes" section of the home page.
+# Fields: name (required), category, description (Markdown), icon (a Bootstrap
+# icon name, default "cpu"), links (list of {text, url}). Example:
+#
+# - name: "`MyCode`"
+#   category: "EMRI waveforms"
+#   description: "What it does, in one or two lines."
+#   links:
+#     - text: "GitHub"
+#       url: "https://github.com/lukasarda/MyCode"
+[]

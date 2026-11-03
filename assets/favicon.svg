@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Lukas Arda</title>
+  <circle cx="32" cy="32" r="32" fill="#1d4f9a"/>
+  <ellipse cx="32" cy="32" rx="25" ry="9" fill="none" stroke="#98caff" stroke-width="2" transform="rotate(-20 32 32)"/>
+  <circle cx="32" cy="32" r="8" fill="#00112e"/>
+  <circle cx="54" cy="24.5" r="3.5" fill="#ffffff"/>
+</svg>

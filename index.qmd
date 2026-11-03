@@ -1,0 +1,50 @@
+---
+description: "Lukas Arda -- personal academic website."   # TODO
+hero:
+  pattern-caption: "A zoom-whirl orbit around a Schwarzschild black hole"
+  # tagline: "One line under your name"
+---
+
+<!-- Text before the first "##" heading becomes the intro card. -->
+
+*Welcome! This website is under construction.*
+
+## Get in touch {.special}
+
+*Coming soon.*
+
+## Codes
+
+<!-- Cards from data/tools.yml. -->
+
+{{< tools >}}
+
+*Coming soon.*
+
+## Teaching
+
+<!-- Entries from data/teaching.yml. -->
+
+{{< list teaching >}}
+
+*Coming soon.*
+
+## Talks
+
+<!-- Entries from data/talks.yml. -->
+
+{{< list talks >}}
+
+*Coming soon.*
+
+## Outreach
+
+<!-- Entries from data/outreach.yml. -->
+
+{{< list outreach >}}
+
+*Coming soon.*
+
+## Personal
+
+*Coming soon.*
